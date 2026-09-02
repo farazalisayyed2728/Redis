@@ -4,7 +4,8 @@
   "description": "\u0000#\u0000 \u0000R\u0000e\u0000d\u0000i\u0000s\u0000\r\u0000 \u0000#\u0000 \u0000R\u0000e\u0000d\u0000i\u0000s\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node 02-local-setup-redis/src/index.js"
   },
   "repository": {
     "type": "git",
@@ -13,12 +14,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/farazalisayyed2728/Redis/issues"
   },
   "homepage": "https://github.com/farazalisayyed2728/Redis#readme",
   "dependencies": {
+    "express": "^5.2.1",
     "redis": "^6.2.1"
   }
 }
